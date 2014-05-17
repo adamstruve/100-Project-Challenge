@@ -1,0 +1,184 @@
+body {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#randomize {
+	margin: 20px auto;
+	font-size: 16pt;
+	cursor: pointer;
+}
+
+#piet-container {
+	position: relative;
+	width: 600px;
+	height: 595px;
+	background-color: #000000;
+	margin: 0px auto;
+}
+
+.piet {
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#piet1 {
+	top: 0px;
+	left: 0px;
+	width: 139px;
+	height: 63px;
+	background-color: #f1fbf2;
+}
+
+#piet2 {
+	top: 0px;
+	left: 150px;
+	width: 221px;
+	height: 63px;
+	background-color: #f1fbf2;
+}
+
+#piet3 {
+	top: 0px;
+	left: 382px;
+	width: 184px;
+	height: 63px;
+	background-color: #fcd369;
+}
+
+#piet4 {
+	top: 0px;
+	left: 576px;
+	width: 24px;
+	height: 446px;
+	background-color: #f1fbf2;
+}
+
+#piet5 {
+	top: 73px;
+	left: 0px;
+	width: 62px;
+	height: 143px;
+	background-color: #f1fbf2;
+}
+
+#piet6 {
+	top: 73px;
+	left: 72px;
+	width: 299px;
+	height: 296px;
+	background-color: #e93125;
+}
+
+#piet7 {
+	top: 73px;
+	left: 382px;
+	width: 184px;
+	height: 143px;
+	background-color: #fcd369;
+}
+
+#piet8 {
+	top: 227px;
+	left: 0px;
+	width: 62px;
+	height: 219px;
+	background-color: #f1fbf2;
+}
+
+#piet9 {
+	top: 227px;
+	left: 382px;
+	width: 87px;
+	height: 142px;
+	background-color: #f1fbf2;
+}
+
+#piet10 {
+	top: 227px;
+	left: 479px;
+	width: 87px;
+	height: 142px;
+	background-color: #f1fbf2;
+}
+
+#piet11 {
+	top: 380px;
+	left: 72px;
+	width: 144px;
+	height: 142px;
+	background-color: #1b0a10;
+}
+
+#piet12 {
+	top: 380px;
+	left: 227px;
+	width: 144px;
+	height: 66px;
+	background-color: #f1fbf2;
+}
+
+#piet13 {
+	top: 380px;
+	left: 382px;
+	width: 184px;
+	height: 66px;
+	background-color: #f1fbf2;
+}
+
+#piet14 {
+	top: 456px;
+	left: 0px;
+	width: 62px;
+	height: 139px;
+	background-color: #fcd369;
+}
+
+#piet15 {
+	top: 456px;
+	left: 227px;
+	width: 144px;
+	height: 66px;
+	background-color: #f1fbf2;
+}
+
+#piet16 {
+	top: 456px;
+	left: 382px;
+	width: 184px;
+	height: 105px;
+	background-color: #250c9a;
+}
+
+#piet17 {
+	top: 456px;
+	left: 576px;
+	width: 24px;
+	height: 139px;
+	background-color: #e93125;
+}
+
+#piet18 {
+	top: 532px;
+	left: 72px;
+	width: 144px;
+	height: 63px;
+	background-color: #f1fbf2;
+}
+
+#piet19 {
+	top: 532px;
+	left: 227px;
+	width: 144px;
+	height: 29px;
+	background-color: #1b0a10;
+}
+
+#piet20 {
+	top: 572px;
+	left: 227px;
+	width: 339px;
+	height: 23px;
+	background-color: #f1fbf2;
+}
