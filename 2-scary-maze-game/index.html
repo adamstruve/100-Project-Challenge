@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Scary Maze Game</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h2>Scary Maze Game</h2>
+
+        <div id="container">
+            <div class="trigger"></div>
+
+            <div id="start">
+                <div id="intro">MAZE!</div>
+                <div class="play">PLAY NOW!</div>
+            </div>
+
+            <div id="gameover">
+                <div id="fail">FAIL!</div>
+                <div class="play">TRY AGAIN!</div>
+            </div>
+
+            <div id="level1">
+                <div id="level1line1"></div>
+                <div id="level1line2"></div>
+                <div id="level1finish"></div>
+                <div id="level1label">Level 1</div>
+            </div>
+
+            <div id="level2">
+                <div id="level2line1"></div>
+                <div id="level2line2"></div>
+                <div id="level2line3"></div>
+                <div id="level2line4"></div>
+                <div id="level2line5"></div>
+                <div id="level2line6"></div>
+                <div id="level2line7"></div>
+                <div id="level2line8"></div>
+                <div id="level2line9"></div>
+                <div id="level2finish"></div>
+                <div id="level2label">Level 2</div>
+            </div>
+
+            <div id="level3">
+                <div id="level3line1"></div>
+                <div id="level3line2"></div>
+                <div id="level3line3"></div>
+                <div id="level3line4"></div>
+                <div id="level3line5"></div>
+                <div id="level3line6"></div>
+                <div id="level3line7"></div>
+                <div id="level3line8"></div>
+                <div id="level3line9"></div>
+                <div id="level3line10"></div>
+                <div id="level3line11"></div>
+                <div id="level3finish"></div>
+                <div id="level3label">Level 3</div>
+            </div>
+
+            <div id="scary"></div>
+
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+        <script>
+        $( ".trigger" ).mouseover(function() {
+            $("#level1,#level2,#level3,.trigger").hide();
+            $("#gameover").show();
+        });
+
+        $( ".play" ).click(function() {
+            $("#start,#gameover").hide();
+            $("#level1,.trigger").show();
+        });
+
+        $( "#level1finish" ).mouseover(function() {
+            $("#level1").hide();
+            $("#level2").show();
+        });
+
+        $( "#level2finish" ).mouseover(function() {
+            $("#level2").hide();
+            $("#level3").show();
+        });
+
+        $( "#level3line7" ).mouseover(function() {
+            $("#scary").show();
+        });
+        </script>
+    </body>
+</html>
