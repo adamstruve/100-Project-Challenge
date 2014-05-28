@@ -4,16 +4,27 @@
         <meta charset="utf-8" />
         <title>Leave A Message At Their Desk</title>
         <style>
-        body {
+        #message {
           padding: 20px 40px;
           font-size: 50pt;
           font-family: Impact, Charcoal, sans-serif;
           text-align: center;
+          outline: none;
         }
         </style>
     </head>
-    <body contenteditable="true">Type your message here...</body>
-<!-- Yeah I know this one is too easy.  This would do the same thing:
+    <body>
+      <div id="message" contenteditable="true">Type your message here...</div>
+    </body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+    $( "#message" ).click(function() {
+      if ($("#message").html() == "Type your message here...") {
+        $("#message").html("");
+      }
+    });
+    </script>
+<!-- Yeah I know this one is too easy.  This would do the same thing pretty much:
 data:text/html, <html contenteditable="true" style="padding: 20px 40px; font-size: 50pt; font-family: Impact, Charcoal, sans-serif; text-align: center;">
 -->
 </html>
