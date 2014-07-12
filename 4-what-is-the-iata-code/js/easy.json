@@ -1,0 +1,42 @@
+{
+   "1":{
+      "iata":"ORD",
+      "name":"Chicago O'Hare International Airport"
+   },
+   "2":{
+      "iata":"LAX",
+      "name":"Los Angeles International Airport"
+   },
+   "3":{
+      "iata":"ATL",
+      "name":"Hartsfield-Jackson Atlanta International Airport"
+   },
+   "4":{
+      "iata":"MIA",
+      "name":"Miami International Airport"
+   },
+   "5":{
+      "iata":"DFW",
+      "name":"Dallas/Fort Worth International Airport"
+   },
+   "6":{
+      "iata":"DEN",
+      "name":"Denver International Airport"
+   },
+   "7":{
+      "iata":"JFK",
+      "name":"John F. Kennedy International Airport"
+   },
+   "8":{
+      "iata":"LAS",
+      "name":"McCarran International Airport"
+   },
+   "9":{
+      "iata":"BOS",
+      "name":"Logan International Airport"
+   },
+   "10":{
+      "iata":"PHX",
+      "name":"Phoenix Sky Harbor International Airport"
+   }
+}

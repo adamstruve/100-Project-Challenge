@@ -1,0 +1,42 @@
+{
+   "1":{
+      "iata":"TPA",
+      "name":"Tampa International Airport"
+   },
+   "2":{
+      "iata":"SAN",
+      "name":"San Diego International Airport"
+   },
+   "3":{
+      "iata":"HNL",
+      "name":"Honolulu International Airport"
+   },
+   "4":{
+      "iata":"MDW",
+      "name":"Midway International Airport"
+   },
+   "5":{
+      "iata":"DCA",
+      "name":"Ronald Reagan Washington National Airport"
+   },
+   "6":{
+      "iata":"SLC",
+      "name":"Salt Lake City International Airport"
+   },
+   "7":{
+      "iata":"IAD",
+      "name":"Washington Dulles International Airport"
+   },
+   "8":{
+      "iata":"BWI",
+      "name":"Baltimore-Washington International Thurgood Marshall Airport"
+   },
+   "9":{
+      "iata":"FLL",
+      "name":"Fort Lauderdale/Hollywood International Airport"
+   },
+   "10":{
+      "iata":"MCO",
+      "name":"Orlando International Airport"
+   }
+}

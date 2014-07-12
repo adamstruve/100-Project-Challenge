@@ -1,0 +1,42 @@
+{
+   "1":{
+      "iata":"SJU",
+      "name":"Luis Muñoz Marín International Airport"
+   },
+   "2":{
+      "iata":"SUX",
+      "name":"Sioux Gateway Airport"
+   },
+   "3":{
+      "iata":"CID",
+      "name":"The Eastern Iowa Airport"
+   },
+   "4":{
+      "iata":"BNA",
+      "name":"Nashville International Airport"
+   },
+   "5":{
+      "iata":"MCI",
+      "name":"Kansas City International Airport"
+   },
+   "6":{
+      "iata":"JAN",
+      "name":"Jackson-Evers International Airport"
+   },
+   "7":{
+      "iata":"PVD",
+      "name":"Theodore Francis Green State Airport"
+   },
+   "8":{
+      "iata":"IAH",
+      "name":"George Bush Intercontinental Airport"
+   },
+   "9":{
+      "iata":"ANC",
+      "name":"Ted Stevens Anchorage International Airport"
+   },
+   "10":{
+      "iata":"XNA",
+      "name":"Northwest Arkansas Regional Airport"
+   }
+}
